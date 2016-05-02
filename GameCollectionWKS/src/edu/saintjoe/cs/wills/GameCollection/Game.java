@@ -25,6 +25,10 @@ public Game(String newName, String newGenre) {
 	public String toString() {
 		return ("Game: " + name + " Genre: " + genre) ;
 	}
+	public void setGame(Game nextGame, int i) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
