@@ -2,12 +2,7 @@ package edu.saintjoe.cs.wills.GameCollection;
 
 public class Collection{
 	
-	public static final int MAXSGAMES = 25;
-
-
-
-	private static final int MAXGAMES = 0;
-
+	public static final int MAXSGAMES = 25;	
 	
 	
 	private String title;
@@ -15,11 +10,19 @@ public class Collection{
 	private Game[] games;
 
 
+
 	public void Game(String newTitle, String newOwner) {
 		title = newTitle;
 		owner = newOwner;
-		games = new Game[MAXGAMES];
+		games = new Game[MAXSGAMES];
 		}
+	
+	public void setGame(Game nextGame, int whereAt) {
+		
+			
+			games[whereAt] = nextGame;
+		
+	}
 public String toString() {
 		
 		String output = "";
