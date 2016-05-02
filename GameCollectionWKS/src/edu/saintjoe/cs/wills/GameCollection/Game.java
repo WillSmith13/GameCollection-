@@ -22,5 +22,12 @@ public Game(String newName, String newGenre) {
 	public String getGenre() {
 		return genre;
 	}
+	public String toString() {
+		return ("Game: " + name + " Genre: " + genre) ;
+	}
+	
+	
 }
+
+
 
