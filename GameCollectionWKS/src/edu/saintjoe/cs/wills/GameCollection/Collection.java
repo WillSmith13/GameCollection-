@@ -11,7 +11,7 @@ public class Collection{
 
 
 
-	public void Game(String newTitle, String newOwner) {
+	public Collection(String newTitle, String newOwner) {
 		title = newTitle;
 		owner = newOwner;
 		games = new Game[MAXSGAMES];
